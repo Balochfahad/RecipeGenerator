@@ -1,0 +1,56 @@
+{
+  "name": "RecipeGenerator",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "port-8082": "node node_modules/react-native/local-cli/cli.js start --port 8082",
+    "test": "jest",
+    "flow": "flow",
+    "flow-stop": "flow stop"
+  },
+  "dependencies": {
+    "apisauce": "^0.13.0",
+    "base-64": "^0.1.0",
+    "format-unicorn": "^1.1.0",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "prop-types": "^15.5.10",
+    "react": "16.0.0-alpha.12",
+    "react-native": "0.45.1",
+    "react-native-animatable": "^1.2.2",
+    "react-native-device-info": "^0.10.2",
+    "react-native-message-bar": "^1.6.0",
+    "react-native-scrollable-tab-view": "^0.6.6",
+    "react-native-sound": "^0.10.4",
+    "react-navigation": "^1.0.0-beta.11",
+    "react-redux": "^5.0.5",
+    "redux": "^3.6.0",
+    "redux-logger": "^3.0.6",
+    "redux-saga": "^0.15.3",
+    "redux-storage": "^4.1.2",
+    "redux-storage-decorator-filter": "^1.1.8",
+    "redux-storage-engine-reactnativeasyncstorage": "^1.0.5",
+    "seamless-immutable": "^7.1.2",
+    "yarn": "^1.5.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "babel-jest": "20.0.3",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react-native": "1.9.2",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-config-prettier": "^2.1.1",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-react": "^7.0.1",
+    "eslint-plugin-react-native": "^2.3.2",
+    "flow-bin": "0.45.0",
+    "jest": "20.0.4",
+    "react-test-renderer": "16.0.0-alpha.12"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

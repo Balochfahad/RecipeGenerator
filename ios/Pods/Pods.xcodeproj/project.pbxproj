@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1011D81CA5FF8AE3AA158B984FE669EE /* Pods-RecipeGenerator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6676052996BC992DA99A1228A0ACF83F /* Pods-RecipeGenerator-dummy.m */; };
+		11F35877C7394F061A5334EDCEC6E378 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572DBE63D5360AB71E5F80F979738FD0 /* Foundation.framework */; };
+		7D511EF38378D8B34586A080E326E0F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D154F4805B9715F0E6D79B0363CE280 /* Foundation.framework */; };
+		E933EDD7013BC28F81002D0365E91071 /* Pods-RecipeGenerator-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A29094DDFB7745F4435C5AA16458E188 /* Pods-RecipeGenerator-tvOS-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0BF47C89C1DA0C5E0896158A34CE183F /* Pods-RecipeGenerator-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RecipeGenerator-resources.sh"; sourceTree = "<group>"; };
+		0ED73115D0520AC160E4FE2C000BF8A2 /* libPods-RecipeGenerator-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-RecipeGenerator-tvOS.a"; path = "libPods-RecipeGenerator-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13BB4D3E90EB9236710FFCF6A96D0794 /* Pods-RecipeGenerator-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RecipeGenerator-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		1E31ED960A5A68E9973C71DF71BADB8F /* NRCustomMetrics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NRCustomMetrics.h; path = NewRelicAgent/NewRelicAgent.framework/Versions/A/Headers/NRCustomMetrics.h; sourceTree = "<group>"; };
+		2D154F4805B9715F0E6D79B0363CE280 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2D2D278224CEB303DFD89D01013F561D /* Pods-RecipeGenerator-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RecipeGenerator-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		3B581354F96B8A28488CB8A679F5E34E /* libPods-RecipeGenerator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-RecipeGenerator.a"; path = "libPods-RecipeGenerator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40584BF2607278198EF0F2A9061EB2DE /* Pods-RecipeGenerator-tvOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RecipeGenerator-tvOS-frameworks.sh"; sourceTree = "<group>"; };
+		47FFEAFB4AE504616D70FBBBC9713B5F /* Pods-RecipeGenerator-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RecipeGenerator-acknowledgements.plist"; sourceTree = "<group>"; };
+		483A8F134DE77154223F49DB8BD9E572 /* Pods-RecipeGenerator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RecipeGenerator.release.xcconfig"; sourceTree = "<group>"; };
+		558262C997DC6E1655DC98C6B3C3F500 /* NewRelic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NewRelic.h; path = NewRelicAgent/NewRelicAgent.framework/Versions/A/Headers/NewRelic.h; sourceTree = "<group>"; };
+		572DBE63D5360AB71E5F80F979738FD0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS10.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6676052996BC992DA99A1228A0ACF83F /* Pods-RecipeGenerator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RecipeGenerator-dummy.m"; sourceTree = "<group>"; };
+		6B8A6A8EC9272B8BBAED715AB58652CD /* Pods-RecipeGenerator-tvOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RecipeGenerator-tvOS-resources.sh"; sourceTree = "<group>"; };
+		72001E5A15580B6314386A605644615A /* NewRelicAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NewRelicAgent.h; path = NewRelicAgent/NewRelicAgent.framework/Versions/A/Headers/NewRelicAgent.h; sourceTree = "<group>"; };
+		788E92BBACFB9006C7FAE169A940528A /* NewRelicAgent.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NewRelicAgent.framework; path = NewRelicAgent/NewRelicAgent.framework; sourceTree = "<group>"; };
+		829E337922CBE88DCB8DAED78FEA0249 /* Pods-RecipeGenerator-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RecipeGenerator-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A29094DDFB7745F4435C5AA16458E188 /* Pods-RecipeGenerator-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RecipeGenerator-tvOS-dummy.m"; sourceTree = "<group>"; };
+		A46F83227CFE49218B8BE9864F8BBB8D /* NRLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NRLogger.h; path = NewRelicAgent/NewRelicAgent.framework/Versions/A/Headers/NRLogger.h; sourceTree = "<group>"; };
+		BB782E20DD356D8EA40E3B63289E7C35 /* NRTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NRTimer.h; path = NewRelicAgent/NewRelicAgent.framework/Versions/A/Headers/NRTimer.h; sourceTree = "<group>"; };
+		BF04F4F193FF4697A381E7CC37D7B291 /* NRURLSessionTaskDelegateBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NRURLSessionTaskDelegateBase.h; path = NewRelicAgent/NewRelicAgent.framework/Versions/A/Headers/NRURLSessionTaskDelegateBase.h; sourceTree = "<group>"; };
+		C3400D5531E2EE9765E629A23C00C367 /* Pods-RecipeGenerator-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RecipeGenerator-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CC2BCDDEE4DEBE0D9F309F4B7CAB8A37 /* NewRelicCustomInteractionInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NewRelicCustomInteractionInterface.h; path = NewRelicAgent/NewRelicAgent.framework/Versions/A/Headers/NewRelicCustomInteractionInterface.h; sourceTree = "<group>"; };
+		D14CC7032DBD644F58FF9E7E80D53FF7 /* Pods-RecipeGenerator-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RecipeGenerator-frameworks.sh"; sourceTree = "<group>"; };
+		D93D1E338ED42E8FC0CA6322713761BB /* NRGCDOverride.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NRGCDOverride.h; path = NewRelicAgent/NewRelicAgent.framework/Versions/A/Headers/NRGCDOverride.h; sourceTree = "<group>"; };
+		EA91E7F419EB024513A4EC12F10239DA /* NRConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NRConstants.h; path = NewRelicAgent/NewRelicAgent.framework/Versions/A/Headers/NRConstants.h; sourceTree = "<group>"; };
+		EC1A186F826B3EA92CDD93396632829C /* Pods-RecipeGenerator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RecipeGenerator.debug.xcconfig"; sourceTree = "<group>"; };
+		F1432F19799D2DBEDC57025AD533D77F /* Pods-RecipeGenerator-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RecipeGenerator-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		FBF59B99C14A3FCDBED5566E55D6D447 /* NewRelicFeatureFlags.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NewRelicFeatureFlags.h; path = NewRelicAgent/NewRelicAgent.framework/Versions/A/Headers/NewRelicFeatureFlags.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BD32174DFC39A741B55F59E0A7ED97C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F35877C7394F061A5334EDCEC6E378 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE28D1FB6FF455BBE694FD6605F92AFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D511EF38378D8B34586A080E326E0F2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		025EAA3BDC244849AF97470B4EB6863D /* Pods-RecipeGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				C3400D5531E2EE9765E629A23C00C367 /* Pods-RecipeGenerator-acknowledgements.markdown */,
+				47FFEAFB4AE504616D70FBBBC9713B5F /* Pods-RecipeGenerator-acknowledgements.plist */,
+				6676052996BC992DA99A1228A0ACF83F /* Pods-RecipeGenerator-dummy.m */,
+				D14CC7032DBD644F58FF9E7E80D53FF7 /* Pods-RecipeGenerator-frameworks.sh */,
+				0BF47C89C1DA0C5E0896158A34CE183F /* Pods-RecipeGenerator-resources.sh */,
+				EC1A186F826B3EA92CDD93396632829C /* Pods-RecipeGenerator.debug.xcconfig */,
+				483A8F134DE77154223F49DB8BD9E572 /* Pods-RecipeGenerator.release.xcconfig */,
+			);
+			name = "Pods-RecipeGenerator";
+			path = "Target Support Files/Pods-RecipeGenerator";
+			sourceTree = "<group>";
+		};
+		1312D044508DFC6E2C00E442E438BF91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F37C2F05E1ED1D4B3F9FC41EB171AB46 /* NewRelicAgent */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1ACBA6E63CF6B9ECD55FFA1E5ADC6A4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				788E92BBACFB9006C7FAE169A940528A /* NewRelicAgent.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20F731AE46C73F232AF0C168DC383CF9 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				572DBE63D5360AB71E5F80F979738FD0 /* Foundation.framework */,
+			);
+			name = tvOS;
+			sourceTree = "<group>";
+		};
+		307B49D7DF983017582DAAA62C304EC6 /* Pods-RecipeGenerator-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				829E337922CBE88DCB8DAED78FEA0249 /* Pods-RecipeGenerator-tvOS-acknowledgements.markdown */,
+				2D2D278224CEB303DFD89D01013F561D /* Pods-RecipeGenerator-tvOS-acknowledgements.plist */,
+				A29094DDFB7745F4435C5AA16458E188 /* Pods-RecipeGenerator-tvOS-dummy.m */,
+				40584BF2607278198EF0F2A9061EB2DE /* Pods-RecipeGenerator-tvOS-frameworks.sh */,
+				6B8A6A8EC9272B8BBAED715AB58652CD /* Pods-RecipeGenerator-tvOS-resources.sh */,
+				13BB4D3E90EB9236710FFCF6A96D0794 /* Pods-RecipeGenerator-tvOS.debug.xcconfig */,
+				F1432F19799D2DBEDC57025AD533D77F /* Pods-RecipeGenerator-tvOS.release.xcconfig */,
+			);
+			name = "Pods-RecipeGenerator-tvOS";
+			path = "Target Support Files/Pods-RecipeGenerator-tvOS";
+			sourceTree = "<group>";
+		};
+		4E01B46E0A519D5E63C0D993CCBF736B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				025EAA3BDC244849AF97470B4EB6863D /* Pods-RecipeGenerator */,
+				307B49D7DF983017582DAAA62C304EC6 /* Pods-RecipeGenerator-tvOS */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		58996781A54EE964D7111D73083A18A5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2D154F4805B9715F0E6D79B0363CE280 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		61D7D2A9132C1EDECEC9240606416122 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B581354F96B8A28488CB8A679F5E34E /* libPods-RecipeGenerator.a */,
+				0ED73115D0520AC160E4FE2C000BF8A2 /* libPods-RecipeGenerator-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A42F72DC1D780481325DD00969B19BB6 /* Frameworks */,
+				1312D044508DFC6E2C00E442E438BF91 /* Pods */,
+				61D7D2A9132C1EDECEC9240606416122 /* Products */,
+				4E01B46E0A519D5E63C0D993CCBF736B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A42F72DC1D780481325DD00969B19BB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58996781A54EE964D7111D73083A18A5 /* iOS */,
+				20F731AE46C73F232AF0C168DC383CF9 /* tvOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F37C2F05E1ED1D4B3F9FC41EB171AB46 /* NewRelicAgent */ = {
+			isa = PBXGroup;
+			children = (
+				558262C997DC6E1655DC98C6B3C3F500 /* NewRelic.h */,
+				72001E5A15580B6314386A605644615A /* NewRelicAgent.h */,
+				CC2BCDDEE4DEBE0D9F309F4B7CAB8A37 /* NewRelicCustomInteractionInterface.h */,
+				FBF59B99C14A3FCDBED5566E55D6D447 /* NewRelicFeatureFlags.h */,
+				EA91E7F419EB024513A4EC12F10239DA /* NRConstants.h */,
+				1E31ED960A5A68E9973C71DF71BADB8F /* NRCustomMetrics.h */,
+				D93D1E338ED42E8FC0CA6322713761BB /* NRGCDOverride.h */,
+				A46F83227CFE49218B8BE9864F8BBB8D /* NRLogger.h */,
+				BB782E20DD356D8EA40E3B63289E7C35 /* NRTimer.h */,
+				BF04F4F193FF4697A381E7CC37D7B291 /* NRURLSessionTaskDelegateBase.h */,
+				1ACBA6E63CF6B9ECD55FFA1E5ADC6A4A /* Frameworks */,
+			);
+			name = NewRelicAgent;
+			path = NewRelicAgent;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		070E1773D44E1FCA61FE2CACFF73CCD9 /* Pods-RecipeGenerator-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC9059DE95CED24A4FB114B68A7A2A28 /* Build configuration list for PBXNativeTarget "Pods-RecipeGenerator-tvOS" */;
+			buildPhases = (
+				653C7EBCCC0E48F0565806671BAA218D /* Sources */,
+				2BD32174DFC39A741B55F59E0A7ED97C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-RecipeGenerator-tvOS";
+			productName = "Pods-RecipeGenerator-tvOS";
+			productReference = 0ED73115D0520AC160E4FE2C000BF8A2 /* libPods-RecipeGenerator-tvOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3F5B0E58DB9B9567A8866D3D80769F9E /* Pods-RecipeGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4878C3B7B767A211D8CEDB9AE68C9BE1 /* Build configuration list for PBXNativeTarget "Pods-RecipeGenerator" */;
+			buildPhases = (
+				3D08DCDC60C39E77880240045814EAEC /* Sources */,
+				AE28D1FB6FF455BBE694FD6605F92AFA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-RecipeGenerator";
+			productName = "Pods-RecipeGenerator";
+			productReference = 3B581354F96B8A28488CB8A679F5E34E /* libPods-RecipeGenerator.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 61D7D2A9132C1EDECEC9240606416122 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F5B0E58DB9B9567A8866D3D80769F9E /* Pods-RecipeGenerator */,
+				070E1773D44E1FCA61FE2CACFF73CCD9 /* Pods-RecipeGenerator-tvOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D08DCDC60C39E77880240045814EAEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1011D81CA5FF8AE3AA158B984FE669EE /* Pods-RecipeGenerator-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		653C7EBCCC0E48F0565806671BAA218D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E933EDD7013BC28F81002D0365E91071 /* Pods-RecipeGenerator-tvOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0173A3AA5A440C87D571B41244AE4116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1432F19799D2DBEDC57025AD533D77F /* Pods-RecipeGenerator-tvOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5625EC485C2A57DA01E24CEC07459EA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC1A186F826B3EA92CDD93396632829C /* Pods-RecipeGenerator.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5AEC4E2D82FA8F32D70C8CA6F46781E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		6281F0D0E2C87DC280E6CD73715D3097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		D4C31788C2C485CE4498F31BC969E6AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13BB4D3E90EB9236710FFCF6A96D0794 /* Pods-RecipeGenerator-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		D8D3BEB7D8E0877CA503F801E0D8948E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 483A8F134DE77154223F49DB8BD9E572 /* Pods-RecipeGenerator.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6281F0D0E2C87DC280E6CD73715D3097 /* Debug */,
+				5AEC4E2D82FA8F32D70C8CA6F46781E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4878C3B7B767A211D8CEDB9AE68C9BE1 /* Build configuration list for PBXNativeTarget "Pods-RecipeGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5625EC485C2A57DA01E24CEC07459EA6 /* Debug */,
+				D8D3BEB7D8E0877CA503F801E0D8948E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC9059DE95CED24A4FB114B68A7A2A28 /* Build configuration list for PBXNativeTarget "Pods-RecipeGenerator-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4C31788C2C485CE4498F31BC969E6AD /* Debug */,
+				0173A3AA5A440C87D571B41244AE4116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
